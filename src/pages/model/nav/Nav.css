@@ -1,0 +1,40 @@
+#nav {
+  background-color: black;
+  width: 100vw;
+  height: 5vh;
+  text-align: end;
+}
+#nav p {
+  display: inline-flex;
+  margin-left: 0px;
+  margin-right: 6vw;
+  color: #ffffff;
+  font-family: sans-serif;
+  text-decoration: none;
+
+}
+#link{
+  text-decoration: none;
+}
+@media screen and (max-width:1920px){
+  #nav p {
+    margin-top: 0.6vh;
+    font-size: 1.6vw;
+  }
+}@media screen and (max-width:1220px){
+  #nav p {
+    margin-top: 0.8vh;
+    font-size: 2vw;
+  }
+}@media screen and (max-width:880px){
+  #nav p {
+    margin-top: 0.8vh;
+    font-size: 3vw;
+  }
+}
+@media screen and (max-width:700px){
+  #nav p {
+    margin-top: 1.4vh;
+    font-size: 4.5vw;
+  }
+}

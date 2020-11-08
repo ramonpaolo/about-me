@@ -1,0 +1,58 @@
+#project {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 2vh;
+}
+
+#project #lenguage {
+  font-size: 14px;
+  margin-left: 1vw;
+}
+
+#project #image {
+  border-radius: 10px;
+}
+
+#project #link {
+  text-decoration: underline;
+  color: #000;
+  font-weight: bold;
+  font-style: italic;
+}
+
+@media screen and (max-width: 1920px) {
+  #project {
+    width: 40vw;
+  }
+  #project #image {
+    height: auto;
+    width: auto;
+    max-width: 32vw;
+    max-height: 30vh;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  #project {
+    width: 50vw;
+  }
+  #project #image {
+    height: auto;
+    width: auto;
+    max-width: 30vw;
+    max-height: 20vh;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  #project {
+    width: 80vw;
+  }
+  #project #image {
+    height: auto;
+    width: auto;
+    max-width: 70vw;
+    max-height: 20vh;
+  }
+}

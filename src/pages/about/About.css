@@ -1,0 +1,50 @@
+#about {
+  margin-top: 16vh;
+  align-content: center;
+}
+
+#about #text{
+  margin: 10vw;
+}
+
+#about #image {
+  border-radius: 40px;
+}
+
+/*Set size image*/
+@media screen and (max-width: 1920px) {
+  #about #image {
+    width: 30vw;
+    height: 30vw;
+    
+  }
+}
+@media screen and (max-width: 1280px) {
+  #about #image {
+    width: 40vw;
+    height: 40vw;
+   }
+}
+@media screen and (max-width: 880px) {
+  #about #image {
+    width: 50vw;
+    height: 46vh;
+  }
+}
+@media screen and (max-width: 700px) {
+  #about #image {
+    width: 60vw;
+    height: 40vh;
+  }
+}
+@media screen and (max-width: 500px) {
+  #about #image {
+    width: 60vw;
+    height: 34vh;
+  }
+}@media screen and (max-width: 400px) {
+  #about #image {
+    width: 70vw;
+    height: 34vh;
+  }
+}
